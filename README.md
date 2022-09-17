@@ -1,2 +1,5 @@
-# idleCoffee-cs-ConsoleApplication
-Simple ConsoleApplication Game in C#. Buy Products to Earn Money and grow your buisness. Everything saved in files
+# idleCoffe - C# Console-Application Game
+
+idleCoffee Game <br>
+Owned by byPandaDev <br>
+Website: https://codewithpanda.com/
