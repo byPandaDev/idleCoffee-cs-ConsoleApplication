@@ -1,0 +1,12 @@
+C:\Users\fabia\Documents\Privat\Programmieren\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.exe
+C:\Users\fabia\Documents\Privat\Programmieren\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.pdb
+C:\Users\fabia\Documents\Privat\Programmieren\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.exe
+C:\Users\fabia\Documents\Privat\Programmieren\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.pdb
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.exe
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.pdb
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.exe
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.pdb
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.exe.manifest
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Debug\IdleCoffee.application
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.exe.manifest
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Debug\IdleCoffee.application
