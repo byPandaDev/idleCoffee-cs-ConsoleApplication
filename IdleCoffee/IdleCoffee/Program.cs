@@ -8,7 +8,7 @@
 //  ╚═╝╚═════╝ ╚══════╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝     ╚══════╝╚══════╝
 //
 //  idleCoffee Game
-//  Owned by Fabian Wehn
+//  Owned by byPandaDev
 //  Website: https://codewithpanda.com/
 //
 /////////////////////////////////////////////////////////////////////////////////////
@@ -18,6 +18,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using IdleCoffeeMethods;
+using System.Threading.Tasks;
 
 namespace IdleCoffee
 {

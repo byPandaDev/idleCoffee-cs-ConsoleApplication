@@ -56,6 +56,7 @@ namespace IdleCoffeeMethods
                 case ConsoleKey.D2:
                 {
                     // Introduction to the Game
+                    Introduction();
                     break;
                 }
                 case ConsoleKey.D3:
@@ -112,6 +113,7 @@ namespace IdleCoffeeMethods
                 case ConsoleKey.D4:
                     {
                         //Help Menu
+                        Introduction();
                         break;
                     }
                 case ConsoleKey.D5:
@@ -132,6 +134,46 @@ namespace IdleCoffeeMethods
                     break;
 
             }
+        }
+
+        public static void Introduction()
+        {
+            // Clear Console, set Title
+            Console.Clear();
+            Console.Title = "Introduction | idleCofee";
+
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine("██╗███╗   ██╗████████╗██████╗  ██████╗ ██████╗ ██╗   ██╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗");
+            Console.WriteLine("██║████╗  ██║╚══██╔══╝██╔══██╗██╔═══██╗██╔══██╗██║   ██║██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║");
+            Console.WriteLine("██║██╔██╗ ██║   ██║   ██████╔╝██║   ██║██║  ██║██║   ██║██║        ██║   ██║██║   ██║██╔██╗ ██║");
+            Console.WriteLine("██║██║╚██╗██║   ██║   ██╔══██╗██║   ██║██║  ██║██║   ██║██║        ██║   ██║██║   ██║██║╚██╗██║");
+            Console.WriteLine("██║██║ ╚████║   ██║   ██║  ██║╚██████╔╝██████╔╝╚██████╔╝╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║");
+            Console.WriteLine("╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝\n");
+            Console.ForegroundColor = ConsoleColor.White;
+            //Introduction Text
+            Console.WriteLine("Hey,\nWelcome to idleCoffee. IdleCoffee is a simple idle game where you can buy products,\nfarm money and grow your own buisness.");
+            Console.WriteLine("\nIt was just a little project to learn the basics of C# and how to work with files to save data.\nSo please don't be disappointed, if you beat the game fast\n\n");
+
+            //Help
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(">Storage:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("In Storage you can see all products you currently own,\nsee how much your salary is and how much money you have\n");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(">Shop:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("In the Shop you can see all available products, how much they cost, how much salary you get from it.\nYou can buy new products by typing their name.\n");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine(">Farming:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("In Farming you can earn money to buy new products.\nEvery 2.5 seconds the shown salary will add to you bank account");
+            
+            //Exit introduction
+            Console.WriteLine("\n>>Press ENTER key to exit");
+            ConsoleKey input = Console.ReadKey().Key;
+            if (input == ConsoleKey.Enter) HomeScreen();
+            else Introduction();
+
         }
 
         public static bool BuyItem(int index)
@@ -210,7 +252,7 @@ namespace IdleCoffeeMethods
             Console.WriteLine(row);
         }
 
-            public static string AlignCentre(string text, int width)
+        public static string AlignCentre(string text, int width)
         {
             text = text.Length > width ? text.Substring(0, width - 3) + "..." : text;
 

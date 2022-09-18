@@ -10,3 +10,4 @@ C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Release\IdleCoffee.
 C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\bin\Release\IdleCoffee.pdb
 C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Release\IdleCoffee.exe.manifest
 C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Release\IdleCoffee.application
+C:\Users\fabia\Documents\Coding\C#\IdleCoffee\IdleCoffee\obj\x86\Release\IdleCoffee.csprojResolveAssemblyReference.cache

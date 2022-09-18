@@ -1,4 +1,8 @@
-﻿Hello
-And
-Welcome
-This is extra text
+﻿Coffee;100;5
+Cocoa;250;15
+Donut;500;30
+Cake;1000;75
+Tea;2500;125
+Limonade;4000;250
+Croissant;6000;375
+Pretzel;10000;500
